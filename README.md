@@ -8,4 +8,6 @@ We have 6 clickhouse server container and one zookeeper container.
 
 Start servers
 
+docker network create clickhouse-net
+
 docker-compose up -d
